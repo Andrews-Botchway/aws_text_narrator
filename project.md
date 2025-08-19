@@ -24,6 +24,8 @@ After configuring the Lambda function, we test it by creating a test event in th
 
  Once saved, the test event is invoked, and the function processes the input. The resulting audio file is then available in the previously created S3 bucket, where it can be accessed or downloaded. Successfully completing this step demonstrates a fully functional serverless text-to-speech pipeline using Amazon Polly, Lambda, and S3.
 
+![alt text](cloudwatch_logs.png)
+
 ![alt text](aws-polly-audio-files-storage-gemini-1.png)
 
 ## Conclusion
